@@ -52,3 +52,11 @@ input{
     width: 300px;
     height: 350px;
 }
+#priceOutput{
+    background: black;
+    color: white;
+}
+#wrongInput{
+    background:  rgb(236, 106, 0);
+    color:white;
+}

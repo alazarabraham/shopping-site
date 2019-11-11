@@ -53,10 +53,11 @@
                         <div class="card-body">
                           <h5 class="card-title text-muted text-uppercase text-center">Yves Saint Laurent</h5>
                           <hr>
-                          <p style="text-align: center;">$10000</p>
+                         
+                           <div class ="priceOne"><p style="text-align: center;">10000 USD</p></div>
                           <img src="https://s3-eu-west-1.amazonaws.com/musee-ysl-paris/images/_gallery_2/DP1963_005_5AC69.jpg" id="pics" alt="">
 
-                          <button class="btn btn-block text-uppercase" onclick="buyNow()" id="button">Quantity</button>
+                          <button class="btn btn-block text-uppercase" onclick="buyNow()" id="button">Buy Now</button>
                           <button class="test" id ="removeButton">Remove</button>
 
                           <form>
@@ -75,11 +76,11 @@
                               <div class="card-body">
                                 <h5 class="card-title text-muted text-uppercase text-center">Fendi</h5>
                                 <hr>
-                                <p style="text-align: center;">$3000</p>
+                                <p class= "priceOne"style="text-align: center;">3000 USD</p>
                                 <img src="https://i.pinimg.com/474x/ef/bb/45/efbb4540e0f402a20accd092861125a0--leopard-coat-leopardprint.jpg" id="pics" alt="">
 
 
-                                <button class="btn btn-block text-uppercase" onclick="buyNow()"id="button">Quantity</button>
+                                <button class="btn btn-block text-uppercase" onclick="buyNow()"id="button">Buy Now</button>
                                 <button class="test" id ="removeButton">Remove</button>
 
                                 <form>
@@ -97,9 +98,9 @@
                                   <div class="card-body">
                                     <h5 class="card-title text-muted text-uppercase text-center">Gucci</h5>
                                     <hr>
-                                    <p style="text-align: center;">$5000</p>
+                                    <p class ="priceOne" style="text-align: center;">4000 USD</p>
                                     <img src="https://theluxurycloset.com/blog/wp-content/uploads/2014/09/gracekelly.jpg" id="pics" alt="">
-                                    <button class="btn btn-block text-uppercase" onclick="buyNow()"id="button">Quantity</button>
+                                    <button class="btn btn-block text-uppercase" onclick="buyNow()"id="button">Boy Now</button>
                                     <button class="test" id ="removeButton">Remove</button>
 
                                     <form>
@@ -118,9 +119,14 @@
               </section>
 
                 <!-- ALERT -->
-              <div class="alert alert-danger" role="alert" id="wrongInput">
+                
+                <div class="alert" role="alert" id="priceOutput"></div>
+              <div class="alert" role="alert" id="wrongInput">
+
                    
-                  </div>
+                  </div>                  
+                  
+
     
 </body>
 <script src="js.js"></script>
