@@ -12,7 +12,12 @@
 }
 
 #button{
-    background: rgb(255, 116, 36);
+    background: rgb(255, 54, 36);
+    
+}
+
+#button:hover{
+    background: rgba(255, 48, 48, 0.911);
     
 }
 #removeButton{
@@ -35,6 +40,15 @@
     transition: color .15s
     
 }
+#removeButton:hover{
+    background: rgba(14, 0, 0, 0.911);
+    
+}
 input{
     border-color: orange;
+}
+
+#pics{
+    width: 300px;
+    height: 350px;
 }
